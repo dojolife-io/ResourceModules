@@ -10,7 +10,7 @@ param name string
 param location string = resourceGroup().location
 
 @description('Optional. Array of role assignments to create.')
-param roleAssignments roleAssignmentType
+param roleAssignments roleAssignmentType 
 
 @description('Optional. The managed identity definition for this resource.')
 param managedIdentities managedIdentitiesType
